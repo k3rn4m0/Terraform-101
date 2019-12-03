@@ -1,2 +1,2 @@
-# Terraform-101
-A simple assignment in Terraform to help manage AWS infrastructure
+# Terraform-AWS-Assignment Solution
+Terraform Assignment Solution 
