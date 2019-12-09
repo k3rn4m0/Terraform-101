@@ -1,2 +1,1 @@
-# Terraform-AWS-Assignment Solution
-Terraform Assignment Solution 
+# Managing AWS Infrastructure using Terraform
