@@ -1,7 +1,7 @@
 #--------AWS KEY PAIR---------------------
 
 resource "aws_key_pair" "ec2_authn" {
-	public_key = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDA8M/bm4eebIz2HEf3g7BCo+3DXRcyUDQVYMZr+lHY64S0iFwWDVyeN6FybXuJyVjjE0UnayBVxRvc2trO771TKb7Fk6YJYBzlzCCABqzuN3VyD6YH83Oba7YreeUuObkt6SvtIefieCK78KbitPzqGYq75z8zgCr0g3/1RIuLFyJ6skkBreWRqhi1WZTXKzslDMJFrDELw9Sju18TbTP0FpAKVKV6D4gCw+XO/GMlXgowFnIg0lF0roslaru7y/Qb7VtfWFSNo7I/eaJL2KEt8LzCBspaF2Wjorw/SvtKzGlLNyf9EuI09EEXv1y6aY6gl4QdcKLqmMfuAvTtma8Y0VWavW1iaW+Ls0Uwvv3xFGvHkfOJVWjDSwfot8j86MrVAUdvLZSzbBF5b+D3vac/v7EW8IDGAw5xN+bJZv4+qGaORKpqgpohv5AYA0HbM6LpPm2Pm1Ya28wx/zB4heRlohQ13jK1rolScVLKvkoXbt++UXEP4J3aOAzvPQYiqfc= vi-hseng@localhost.localdomain"
+	public_key = "<PASTE-YOUR-SSH-KEY-HERE>"
 	key_name   = "${var.key_name}"
 }
 
